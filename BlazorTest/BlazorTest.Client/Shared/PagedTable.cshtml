@@ -1,0 +1,19 @@
+﻿@inherits PagedTableBase
+
+@if (Items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class='table'>
+        <thead class="thead-light">
+            <tr>
+                @DynamicTableHeader
+            </tr>
+        </thead>
+        <tbody>
+            @DynamicTableContent
+        </tbody>
+    </table>
+}

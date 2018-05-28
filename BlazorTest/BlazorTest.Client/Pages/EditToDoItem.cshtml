@@ -1,0 +1,31 @@
+﻿@page "/todoitem/edit/{ItemId}"
+@page "/todoitem/create"
+@inherits EditToDoItemBase
+
+<h1>@Title</h1>
+
+@if (ToDoItem == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <label class="control-label">Created</label>
+                    <label class="form-control">@ToDoItem.Created.ToString("d")</label>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Title</label>
+                    <input class="form-control" type="text" bind=ToDoItem.Title />
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="Save" onclick=@Save />
+                    <input class="btn btn-secondary" type="submit" value="Cancel" onclick=@Cancel />
+                </div>
+            </form> 
+        </div>
+    </div>
+}

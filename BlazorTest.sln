@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27604.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTest.Server", "BlazorTest\BlazorTest.Server\BlazorTest.Server.csproj", "{93DC0253-F229-4FC1-B59F-3C48755BF521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTest.Client", "BlazorTest\BlazorTest.Client\BlazorTest.Client.csproj", "{9F84544D-1EF3-4920-92CA-AC5D57A9DD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTest.Shared", "BlazorTest\BlazorTest.Shared\BlazorTest.Shared.csproj", "{63BC70C8-5AB5-40D1-8122-0B4E5E72C9D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DC0253-F229-4FC1-B59F-3C48755BF521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DC0253-F229-4FC1-B59F-3C48755BF521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DC0253-F229-4FC1-B59F-3C48755BF521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DC0253-F229-4FC1-B59F-3C48755BF521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F84544D-1EF3-4920-92CA-AC5D57A9DD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F84544D-1EF3-4920-92CA-AC5D57A9DD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F84544D-1EF3-4920-92CA-AC5D57A9DD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F84544D-1EF3-4920-92CA-AC5D57A9DD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BC70C8-5AB5-40D1-8122-0B4E5E72C9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BC70C8-5AB5-40D1-8122-0B4E5E72C9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BC70C8-5AB5-40D1-8122-0B4E5E72C9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BC70C8-5AB5-40D1-8122-0B4E5E72C9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62985BB9-62AF-433E-B750-C79ED5C57D1E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://backsplayground.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BlazorTest\\BlazorTest.Client\\BlazorTest.Client.csproj
+		SccProjectName1 = BlazorTest/BlazorTest.Client
+		SccLocalPath1 = BlazorTest\\BlazorTest.Client
+		SccProjectUniqueName2 = BlazorTest\\BlazorTest.Server\\BlazorTest.Server.csproj
+		SccProjectName2 = BlazorTest/BlazorTest.Server
+		SccLocalPath2 = BlazorTest\\BlazorTest.Server
+		SccProjectUniqueName3 = BlazorTest\\BlazorTest.Shared\\BlazorTest.Shared.csproj
+		SccProjectName3 = BlazorTest/BlazorTest.Shared
+		SccLocalPath3 = BlazorTest\\BlazorTest.Shared
+	EndGlobalSection
+EndGlobal

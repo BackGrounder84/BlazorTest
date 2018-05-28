@@ -1,0 +1,25 @@
+﻿@page "/jsinterop"
+@inherits JSInteropBase
+
+<h1>Interop Basics</h1>
+
+<h2>Interop Java Script</h2>
+<button class="btn btn-primary" onclick=@SayHello>Call JavaScript</button>
+
+<h2>Interop C# and Java Script</h2>
+<form>
+    <div class="form-group">
+        <label class="control-label">First</label>
+        <input class="form-control" typeof="text" bind=@FirstString />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Second</label>
+        <input class="form-control" type="text" bind=@SecondString />
+    </div>
+    <div class="form-group">
+        <input class="btn btn-primary" type="submit" value="Combine" onclick=@Combine />
+    </div>
+</form>
+<div>
+    <label>New String: @CombinedString</label>
+</div>

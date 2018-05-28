@@ -1,0 +1,22 @@
+﻿@page "/todoitem/do/{ItemId}"
+@inherits DoToDoItemBase
+
+@if (this.Item == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h1>Do @this.Item.Title</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="Ok" onclick=@Do />
+                    <input class="btn btn-secondary" type="submit" value="Cancel" onclick=@Cancel />
+                </div>
+            </form>
+        </div>
+    </div>
+}
